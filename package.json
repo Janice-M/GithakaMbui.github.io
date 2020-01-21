@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Responsive Portfolio",
   "main": "index.js",
+  "homepage": "https://GithakaMbui.github.io/Personal_Portfolio_Website",
   "scripts": {
-    "sass": "node-sass -w scss/ -o Dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o Dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Githaka Mbui",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.0"
   }
 }
